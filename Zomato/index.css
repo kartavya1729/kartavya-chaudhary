@@ -1,0 +1,246 @@
+body{
+    margin: 0%;padding:0%;
+    background-color: rgb(195, 195, 195);
+    display:flex;
+    flex-flow: row wrap;
+    
+}
+body:hover{
+    overflow:overlay;
+                                            
+}
+
+body::-webkit-scrollbar{
+    width:0px;
+    background:transparent;
+}
+body::-webkit-scrollbar-thumb{
+    width:0px;
+    background:transparent;
+} 
+
+body:hover::-webkit-scrollbar{
+    width:0px;
+    background:transparent;
+}
+body:hover::-webkit-scroll-thumb{
+    width:0px;
+    background:rgb(98, 107, 109);
+} 
+
+
+header {
+    display: flex ;
+    width:100%;
+    background-image:url("background_Zomato.avif");
+    height:62vh;
+    flex: 1 100% ;
+    flex-flow:row wrap;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    flex :1 100%; 
+    width:100%;
+    height:17%;
+    /* background-color: azure; */
+
+}
+header > h1 {
+    flex:1 100%;
+    display: flex;
+    color:white;
+    font-size: 10vh;
+    /* background-color: bisque; */
+    justify-content: center;
+    height:22%;
+}
+header > h2 {
+    display: flex;
+    width:100%;
+    margin-top: -7%;
+    /* background-color: beige; */
+    justify-content: center;
+    color: white;
+    font-size:6vh;
+}
+.navigation_bar{                             /*UL TAG OF NAVIGATION BAR */
+    list-style-type: none;
+    display:flex;
+    column-gap: 3%;
+    justify-content: flex-end;
+    margin-right: 10%;
+}
+a > i{
+    margin-top: 10%;
+    display:block;
+    font-size:4vh;
+    color:rgb(187, 144, 144);
+    text-decoration: none;
+}
+
+
+
+main{
+    display: flexbox;
+    flex :1 100%;
+    width:100%;
+    background-color: rgb(241, 239, 237);
+    flex-flow: column;
+    column-gap: 0px;
+    padding-bottom: 5%;
+}
+main > .p1{
+    /* background-color: blueviolet; */
+    width:100%;
+    font-size: 4.5vh;
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin:0%;
+}
+
+main > .p2 {
+    margin:0%;
+    /* background-color: blueviolet; */
+    font-size: 3vh;
+    color: black;
+    padding-left: 10%;
+    padding-right:10%;
+    
+}
+
+.list_locations{ /* UL TAG OF MAIN */
+    margin:0%;
+    /* background-color: blueviolet; */
+    list-style-type: none;
+    column-gap:4%;
+    row-gap: 2vh;
+
+    display: flex;
+    flex-flow: row wrap;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.button1 {
+    width:50vh;
+    height:8vh;
+    border-radius: 15px;
+    display: flex;
+    padding-left: 10%;
+    border-color: rgb(219, 219, 219);
+    box-shadow: 5px 10px 27px 0px rgb(167, 167, 167);
+    background-color: rgb(235, 235, 235);
+    
+}
+
+.button1:hover {
+    background-color: rgb(198, 198, 198);
+    width:52vh;
+    height:8.5vh;
+    transition: 0.2s;
+    margin-top:-0.25vh;
+    margin-bottom:-0.25vh;
+    margin-left:-1vh;
+    margin-right:-1vh;
+}
+
+.i {
+    font-size: 105%;
+    
+}
+
+
+footer{
+    display:flex;
+    width:100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(195, 195, 195);
+    padding-bottom:1%;
+}
+
+.box1 {
+    display: flex;
+    width:75%;
+    column-gap: 1%;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.box1 > h3 {
+    /* background-color: blue; */
+    flex:1 50%;
+    font-size: 4vh;
+}
+.box1 > .button2 {
+    border-radius: 8px;
+    display: flex;
+    border-color: rgb(219, 219, 219);
+    box-shadow: 5px 10px 27px 0px rgb(167, 167, 167);
+    background-color: rgb(235, 235, 235);
+    align-items: center;
+    justify-content: center;
+    /*flex:1 0%; */
+    width:10%;
+    height:70%;
+    font-size: 80%;
+}
+
+
+.box2 {
+    /* background-color: blueviolet; */
+    margin-top: 1.5%;
+    display: flex;
+    width:75%;
+}
+
+.box2 > div {
+    /* background-color: bisque; */
+    width:100%;
+    align-items: center;
+}
+
+
+.box2 > div > h3 {
+    font-size: 2.6vh;
+}
+.box2 > div > article > a{
+    color: rgb(33, 32, 32);
+    font-size: 2.2vh;
+}
+.box2 > div > article{
+    color: rgb(33, 32, 32);
+    font-size: 2.5vh;
+}
+
+.icons {
+    display: flex;
+    justify-content: start;
+    column-gap: 2.5%;
+}
+.icons > i {
+    color: black;
+}
+.icon_images {
+    width: 80%;
+}
+
+.HR{
+    width:75%;
+    height:0.2vh;
+    background-color: rgb(33, 32, 32);
+    margin-top: 4%;
+}
+
+.box3 {
+    margin-top: 1%;
+/*    background-color: aqua; */
+    width:75%;
+}
+
+
+/* MEDIA QUERY AT 666PX OF WIDTH FOR PHONES */
