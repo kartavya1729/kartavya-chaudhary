@@ -1,0 +1,82 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    background-color: whitesmoke;
+}
+body {
+    margin: 0px;
+}
+#logo{
+    margin-top: 3px;
+    /* margin-left: 80px; */
+}
+
+#nav{
+    display: flex;
+    gap: 0 12px;
+    height: 20px;
+}
+#nav a{
+    margin-right: 30px;
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color: black;
+}
+#nav a:hover{
+    height: 80px;
+    margin-top: 10px;
+    color: rgb(0, 110, 255);
+    cursor: pointer;
+}
+#btn{
+    margin-top: 7px;
+    /* margin-right: 80px; */
+}
+main{
+    margin: 12px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.content{
+    flex-grow: 1;
+    width: 50%;
+    padding: 0px;
+}
+.image{
+    flex-grow: 1;
+    width: 50%;
+}
+.story{
+    margin-top: 60px;
+    background-color: rgb(28, 27, 27);
+    color: white;
+}
+.images{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.last{
+    height: 600px;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+#image{
+    margin-left: 180px;
+}
+#content{
+    width: 600px;
+    margin-right: 180px;
+    margin-top: 110px;
+}
